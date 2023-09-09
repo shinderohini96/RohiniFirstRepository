@@ -32,7 +32,7 @@ public class HomeController {
 		hsi.saveData(s);
 		System.out.println("Rohini Shinde");
 		System.out.println("Hello");
-		Systm.out.println("Akshata"):
+		System.out.println("Akshata");
 		return "success";
 	}
 	
