@@ -30,6 +30,7 @@ public class HomeController {
 	public String savedata(@RequestBody Student s)
 	{
 		hsi.saveData(s);
+		system.out.println("Hello");
 		return "success";
 	}
 	
