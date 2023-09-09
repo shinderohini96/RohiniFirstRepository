@@ -31,6 +31,7 @@ public class HomeController {
 	{
 		hsi.saveData(s);
 		System.out.println("Rohini Shinde");
+		System.out.println("Hello");
 		return "success";
 	}
 	
