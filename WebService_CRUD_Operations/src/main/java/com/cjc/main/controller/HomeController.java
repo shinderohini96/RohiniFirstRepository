@@ -25,6 +25,7 @@ public class HomeController {
 	@Autowired
 	HomeServiceI hsi;
 	
+	
 	//post 
 	@RequestMapping(value="/insertData",method = RequestMethod.POST)
 	public String savedata(@RequestBody Student s)
